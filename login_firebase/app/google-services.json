@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96905435543",
+    "project_id": "umdstudyapp",
+    "storage_bucket": "umdstudyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96905435543:android:e6434769ecf4b19f7a0cd2",
+        "android_client_info": {
+          "package_name": "com.e.studyapplogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96905435543-6acun63tgmvr13p2dgrep3huthgb95nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBur6TzU4uSPut-QAxC7Cw92_1KPX1-B3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96905435543-6acun63tgmvr13p2dgrep3huthgb95nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
