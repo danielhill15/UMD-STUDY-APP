@@ -11,11 +11,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.FirebaseAuth
+<<<<<<< HEAD
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.IgnoreExtraProperties
 import com.google.firebase.database.ktx.database
 import com.google.firebase.firestore.auth.User
 import com.google.firebase.ktx.Firebase
+=======
+>>>>>>> 392512b6474b0a9e1a4513913193cf76670d25da
 
 class RegistrationActivity : AppCompatActivity() {
     private var emailTV: EditText? = null
@@ -23,7 +26,10 @@ class RegistrationActivity : AppCompatActivity() {
     private var regBtn: Button? = null
     private var progressBar: ProgressBar? = null
     private var validator = Validators()
+<<<<<<< HEAD
     private lateinit var database: DatabaseReference
+=======
+>>>>>>> 392512b6474b0a9e1a4513913193cf76670d25da
 
     private lateinit var mAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,6 +81,7 @@ class RegistrationActivity : AppCompatActivity() {
                 }
             }
 
+<<<<<<< HEAD
         database = Firebase.database.reference
 
      //    fun writeNewUser(userId: String, email: String?) {
@@ -83,6 +90,8 @@ class RegistrationActivity : AppCompatActivity() {
     //    }
 
 
+=======
+>>>>>>> 392512b6474b0a9e1a4513913193cf76670d25da
 
     }
     companion object {
